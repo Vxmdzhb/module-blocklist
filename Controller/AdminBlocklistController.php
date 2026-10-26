@@ -116,9 +116,9 @@ final class AdminBlocklistController extends AbstractController
     }
 
     /**
-     * Validate, push to one target, and record the outcome as a target-labelled
-     * flash + an audit-log entry. The submitted VALUE is never echoed back or
-     * logged; only the (enum) kind and the resulting status are audited.
+     * Validate, push to one target, and record the outcome as a flash labelled
+     * with the target, plus an audit-log entry. The submitted value is never
+     * echoed or logged; only the kind and the resulting status are audited.
      *
      * @param list<string> $allowedKinds
      */
