@@ -2,6 +2,8 @@
 
 Admin page that pushes abuse-blocklist entries to the astrx-suite crawlers — the **Blocklist editor** module of [AstrX](https://github.com/Vxmdzhb/astrx).
 
+![The blocklist editor in the admin panel](docs/screenshot.png)
+
 - Module key: `blocklist` (switch it on in the site's `resources/config/Modules.config.php`)
 - Pages: `admin_blocklist`
 - Requires: `astrx/cms`, `astrx/framework`, `astrx/library`
