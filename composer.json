@@ -1,6 +1,7 @@
 {
     "name": "astrx/module-blocklist",
     "description": "Admin page that pushes abuse-blocklist entries to the astrx-suite crawlers",
+    "license": "LicenseRef-DoWhatever",
     "type": "astrx-module",
     "keywords": [
         "astrx",
